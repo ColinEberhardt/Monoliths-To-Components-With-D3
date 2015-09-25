@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <script src="lib/d3.js"></script>
+    <script src="lib/css-layout.js"></script>
+    <script src="lib/d3fc.js"></script>
+
+    <link rel="stylesheet" href="lib/d3fc.css"/>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <script src="lib/remark.js"></script>
+    <script>
+      var slideshow = remark.create({
+        sourceUrl: 'presentation.md',
+        highlightStyle: 'github'
+      });
+    </script>
+    <div class="prose">
+    </div>
+    <script type="text/javascript" src="example-data-join.js"></script>
+    <script type="text/javascript" src="interactive-data-join.js"></script>
+    <script type="text/javascript" src="transitions.js"></script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+body {
+  font-family: 'Droid Serif';
+}
+
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+  color: #0b515f !important;
+}
+
+.remark-slide-number {
+  display: none;
+}
+.remark-code, .remark-inline-code {
+  font-family: 'Ubuntu Mono';
+}
+
+.remark-slide-content {
+  background-color: #eee !important;
+  color: #777 !important;
+  font-size: 30px !important;
+  padding: 1em !important;
+}
+
+a, a:hover, a:visited {
+  color: #0b515f !important;
+}
+
+.chart > div {
+  background-color: #e7506d;
+  margin-top: 5px;
+  transition: width 2s;
+}
+
+.remark-slide>* {
+  vertical-align: middle;
+}
+
+g.bar path {
+  stroke-width: 0;
+}
+
+.tick text {
+  font: 15px sans-serif;
+}
+
+
+/* for slides with a single image, scale the image to fit */
+div.image img {
+  max-height: 500px;
+  max-width: 700px;
+}
+
+div.image p {
+  text-align: center;
+}
+
+/* ensure code and lists are never center aligned */
+ul, code {
+  text-align: left;
+}
+
+/* Two-column layout */
+.left-column {
+  font-size: 0.7em;
+  text-align: left;
+  width: 30%;
+  color: #777;
+  height: 92%;
+  float: left;
+}
+
+ul, li {
+  margin-left: 0;
+}
+
+.left-column > :first-child,
+.right-column > :first-child {
+  margin-top: 0;
+}
+
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: #000;
+}
+.right-column {
+  width: 65%;
+  float: right;
+}
